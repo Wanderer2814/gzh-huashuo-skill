@@ -1,0 +1,15 @@
+{
+  "title": "示例：一篇推文的 spec 长什么样",
+  "date": "2026年11月6日",
+  "column": "前沿观察",
+  "blocks": [
+    {"type": "p", "text": "这是正文第一段。spec 里每个块对应一个排版单元，正文只放纯文本，不写任何 HTML。"},
+    {"type": "p", "text": "第二段。段落会被自动加上 15px/1.85 的行距、两端对齐与 20px 段间距；中文标点请用全角。"},
+    {"type": "label", "text": "相关资料"},
+    {"type": "links", "items": [
+      {"title": "EU launches safeguard investigation on certain new hybrid vehicles",
+       "url": "https://www.wto.org/english/news_e/news26_e/safe_eec_02nov26_536_e.htm"}
+    ]},
+    {"type": "p", "text": "结尾一段，下面就是 END 线与两行署名。"}
+  ]
+}
